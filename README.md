@@ -32,12 +32,16 @@ Please check that whether your zbarcode.so is loaded using :
 $ php -m|grep zbarcode
 
 https://github.com/mkoppanen/php-zbarcode
+
+
 ----------------------------------------
+
 Installing dependeny
 
 composer: https://getcomposer.org/download/
 
 $ php composer.phar install
+
 ----------------------------------------
 CSV import:
 
