@@ -2,8 +2,48 @@
 Command line script for import csv and pdf (barcode code 128)
 
 
+----------------------------------------
+
+Install dependency:
+
+composer: https://getcomposer.org/download/
+
+$ php composer.phar install
+
+--------------------------------
+
+Create your custom import profile:
+
+default path for csv profile: profile/csv
+
+default path for pdf profile: profile/pdf
+
+--------------------------------
+
+Upload your files to import:
+
+upload path construction method: upload/json_var_id/json_var_proflie
+
+----------------------------------------
+
+Start .csv import:
+
+Command for start process all json profile (default path: profile/csv):
+
+$ php import_csv.php
+
+----------------------------------------
+
+Start .pdf import:
+
+Command for start process all json profile (default path: profile/pdf):
+
+$ php import_pdf.php
+
+
+
 ------------------------------------
-##Dependencies for Barcode reader (Debian/Ubuntu)
+Install Dependencies for Barcode reader (Debian/Ubuntu)
 
 Zbar
 
@@ -32,31 +72,3 @@ Please check that whether your zbarcode.so is loaded using :
 $ php -m|grep zbarcode
 
 https://github.com/mkoppanen/php-zbarcode
-
-
-----------------------------------------
-
-Installing dependeny
-
-composer: https://getcomposer.org/download/
-
-$ php composer.phar install
-
-----------------------------------------
-CSV import:
-
-Command for start process all json profile (default path: profile/csv):
-
-$ php import_csv.php
-
-----------------------------------------
-PDF import:
-
-Command for start process all json profile (default path: profile/pdf)
-
-$ php import_pdf.php
-
---------------------------------
-Default folder where upload files for import
-
-upload/json_var_id/json_var_proflie
