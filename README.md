@@ -32,3 +32,22 @@ Please check that whether your zbarcode.so is loaded using :
 $ php -m|grep zbarcode
 
 https://github.com/mkoppanen/php-zbarcode
+
+----------------------------------------
+CSV import:
+
+Command for start process all json profile (default path: profile/csv):
+
+$ php import_csv.php
+
+----------------------------------------
+PDF import:
+
+Command for start process all json profile (default path: profile/pdf)
+
+$ php import_pdf.php
+
+--------------------------------
+Default folder where upload files for import
+
+upload/json_var_id/json_var_proflie
