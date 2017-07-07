@@ -30,3 +30,5 @@ Do not forget to add the module to your php.ini
 Please check that whether your zbarcode.so is loaded using :
 
 $ php -m|grep zbarcode
+
+https://github.com/mkoppanen/php-zbarcode
