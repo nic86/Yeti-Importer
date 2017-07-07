@@ -40,12 +40,13 @@ Command for start process all json profile (default path: profile/csv):
 
 $ ./import_csv
 
----------------------------------------
+----------------------------------------
 PDF import:
 
 Command for start process all json profile (default path: profile/pdf)
 
 $ ./import_pdf
+
 --------------------------------
 Default folder where upload files for import
 
