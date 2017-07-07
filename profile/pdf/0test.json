@@ -1,0 +1,22 @@
+{
+	"ID":"idtest",
+	"Profile":"profiletest",
+	"Debug":false,
+	"Report":{
+		"ColumnsError":["Doc. Errati"],
+		"ColumnsComplete":["Doc. Originale","Doc. Organizzo","Barcode"],
+		"to":"report@test.com"
+	},
+	"User":"admin",
+	"Type":"filename",
+	"Folder":"T1",
+    "SearchField":"filename",
+	"RelatedModule":"Accounts",
+	"RelatedField":"accountname",
+    "CreateIfNotExist" : false,
+    "Prefix" : "pre",
+    "Postfix" : "post",
+    "AllowExtensions" : ["pdf", "eml"],
+    "MaxFileNumber":300,
+	"MaxFileSize":10000000
+}

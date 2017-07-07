@@ -1,0 +1,27 @@
+{
+	"id":"idtest",
+	"Profile":"profiletest",
+	"Debug":false,
+	"Report":{
+		"ColumnsError":["Csv Nome"],
+		"ColumnsComplete":["Csv Nome"],
+		"To":"report@test.com"
+	},
+	"User":"admin",
+	"MaxFileNumber":200,
+	"MaxLineNumber":10000,
+	"Encoding":"UTF-8",
+	"Conditions":"",
+	"Heading":false,
+	"Offset":0,
+	"Delimiter":",",
+    "DisableHandlers":true,
+    "DisableWorkflows":true,
+	"Module":"Accounts",
+	"MappingFields":{
+		"accountname" : "accountname"
+	},
+	"SearchFields":{
+		"0":["accountname"]
+	}
+}
