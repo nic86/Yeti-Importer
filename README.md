@@ -38,14 +38,14 @@ CSV import:
 
 Command for start process all json profile (default path: profile/csv):
 
-$ ./import_csv
+$ php import_csv.php
 
 ----------------------------------------
 PDF import:
 
 Command for start process all json profile (default path: profile/pdf)
 
-$ ./import_pdf
+$ php import_pdf.php
 
 --------------------------------
 Default folder where upload files for import
