@@ -72,3 +72,14 @@ Please check that whether your zbarcode.so is loaded using :
 $ php -m|grep zbarcode
 
 https://github.com/mkoppanen/php-zbarcode
+
+
+Install ghostscript
+$ apt install ghostscript
+
+Set imagick permission read pdf
+add to /etc/ImageMagick-7/policy.xml
+
+<policy domain="coder" rights="read | write" pattern="PDF" />
+
+https://stackoverflow.com/questions/52998331/imagemagick-security-policy-pdf-blocking-conversion
